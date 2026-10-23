@@ -1,11 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
-  <style>
-    .run { animation: run 4s linear infinite; }
-    @keyframes run { from { transform: translateX(-200px) } to { transform: translateX(1200px) } }
-  </style>
-  <rect x="0" y="11" width="1200" height="2" fill="#00f0ff" opacity="0.35"/>
-  <path d="M0 6H220L232 18H0Z" fill="#fcee0a"/>
-  <path d="M1200 6H980L968 18H1200Z" fill="#ff2a6d"/>
-  <g fill="#fcee0a"><path d="M560 6l8 6-8 6zM580 6l8 6-8 6zM600 6l8 6-8 6zM620 6l8 6-8 6z"/></g>
-  <rect class="run" x="0" y="10" width="160" height="4" fill="#00f0ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="8" viewBox="0 0 1200 8">
+  <rect x="0" y="3" width="400" height="2" fill="#fcee0a"/>
+  <rect x="400" y="3" width="400" height="2" fill="#00f0ff"/>
+  <rect x="800" y="3" width="400" height="2" fill="#ff2a6d"/>
 </svg>
