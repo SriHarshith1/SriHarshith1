@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0221"/>
+      <stop offset="0.6" stop-color="#160733"/>
+      <stop offset="1" stop-color="#2a0a3d"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcee0a"/>
+      <stop offset="1" stop-color="#ff2a6d"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" fill-opacity="0.25"/>
+    </pattern>
+    <clipPath id="sliceA"><rect x="0" y="118" width="1200" height="22"/></clipPath>
+    <clipPath id="sliceB"><rect x="0" y="160" width="1200" height="14"/></clipPath>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Orbitron', 'Rajdhani', 'Courier New', monospace; }
+    .name { font-size: 76px; font-weight: 900; letter-spacing: 6px; }
+    .tag  { font-size: 18px; font-weight: 700; letter-spacing: 4px; }
+    .tiny { font-size: 12px; letter-spacing: 3px; }
+    .gA { animation: gA 3.2s infinite steps(1); }
+    .gB { animation: gB 2.7s infinite steps(1); }
+    .blink { animation: blink 1s infinite steps(1); }
+    .flick { animation: flick 6s infinite; }
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes gA { 0%,86%,100% { transform: translate(0,0); opacity: 0 }
+                    88% { transform: translate(-14px,0); opacity: 1 }
+                    91% { transform: translate(10px,0); opacity: 1 }
+                    94% { transform: translate(-4px,0); opacity: 1 } }
+    @keyframes gB { 0%,70%,100% { transform: translate(0,0); opacity: 0 }
+                    72% { transform: translate(18px,0); opacity: 1 }
+                    75% { transform: translate(-8px,0); opacity: 1 } }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes flick { 0%,18%,22%,62%,64%,100% { opacity: 1 } 20%,63% { opacity: 0.35 } }
+    @keyframes sweep { from { transform: translateY(-40px) } to { transform: translateY(340px) } }
+  </style>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- synth sun + city skyline -->
+  <g opacity="0.85">
+    <circle cx="1010" cy="250" r="120" fill="url(#sun)" opacity="0.9"/>
+    <g fill="#0d0221">
+      <rect x="880" y="200" width="260" height="6"/><rect x="880" y="218" width="260" height="8"/>
+      <rect x="880" y="238" width="260" height="10"/><rect x="880" y="260" width="260" height="14"/>
+    </g>
+    <path fill="#07010f" d="M820 320V250h30v-40h22v-30h18v70h26v-90h34v110h20v-60h28v-30h16v90h30v-120h40v140h22v-70h30v40h24v-60h20v80h20V320z"/>
+    <g fill="#fcee0a" opacity="0.8">
+      <rect x="930" y="198" width="4" height="4"/><rect x="942" y="214" width="4" height="4"/>
+      <rect x="1036" y="170" width="4" height="4"/><rect x="1048" y="190" width="4" height="4"/>
+      <rect x="1120" y="236" width="4" height="4"/><rect x="900" y="240" width="4" height="4"/>
+    </g>
+  </g>
+
+  <!-- yellow title-card slab -->
+  <path d="M0 0H560L520 40H0Z" fill="#fcee0a"/>
+  <text x="24" y="27" class="mono tag" fill="#0d0221">EDGERUNNER // ID.0x5H4R</text>
+  <path d="M0 296H380L400 276H0Z" fill="#ff2a6d" opacity="0.9"/>
+  <text x="24" y="292" class="mono tiny" fill="#0d0221" font-weight="700">NIGHT CITY · NET.STATUS: ONLINE</text>
+
+  <!-- name with chromatic glitch -->
+  <g class="mono name">
+    <text x="40" y="168" fill="#ff2a6d" opacity="0.7" transform="translate(4,2)">SRIHARSHITH</text>
+    <text x="40" y="168" fill="#00f0ff" filter="url(#glow)" class="flick">SRIHARSHITH</text>
+    <g clip-path="url(#sliceA)"><text x="40" y="168" fill="#fcee0a" class="gA">SRIHARSHITH</text></g>
+    <g clip-path="url(#sliceB)"><text x="40" y="168" fill="#ff2a6d" class="gB">SRIHARSHITH</text></g>
+  </g>
+
+  <text x="44" y="214" class="mono tag" fill="#fcee0a">&gt; QA ENGINEER → AI ENGINEER<tspan fill="#00f0ff" class="blink"> █</tspan></text>
+  <text x="44" y="244" class="mono tiny" fill="#00f0ff" opacity="0.75">BUILDING AGENTS · EVALS · AUTOMATION · ONE GIG AT A TIME</text>
+
+  <!-- HUD brackets -->
+  <g fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.8">
+    <path d="M1170 60V30H1140"/><path d="M620 60V30H650"/>
+  </g>
+  <text x="660" y="50" class="mono tiny" fill="#00f0ff" opacity="0.7" letter-spacing="1.5">SYS::CYBERDECK v2.0.77 · RAM 12/12 · ICE: BYPASSED</text>
+
+  <rect width="1200" height="320" fill="url(#scan)"/>
+  <rect class="sweep" width="1200" height="30" fill="#00f0ff" opacity="0.05"/>
+</svg>
