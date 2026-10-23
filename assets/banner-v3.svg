@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0221"/>
+      <stop offset="1" stop-color="#1f0838"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f4f1ff"/>
+      <stop offset="0.7" stop-color="#cfe9ff"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .lights { animation: lights 4s ease-in-out infinite; }
+    @keyframes lights { 50% { opacity: 0.35 } }
+  </style>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- the moon -->
+  <circle cx="840" cy="110" r="120" fill="url(#moon)" opacity="0.18"/>
+  <circle cx="840" cy="110" r="72" fill="#e9e4ff" opacity="0.9"/>
+
+  <!-- distant skyline -->
+  <path fill="#1a0a30" d="M520 300V210h28v-30h20v50h30v-70h26v80h34v-40h24v-60h22v90h30v-50h26v70h30v-100h34v110h24v-50h28v30h22v-70h26v80h30v-40h22v60h18V300z"/>
+  <g fill="#fcee0a" class="lights" opacity="0.7">
+    <rect x="578" y="196" width="3" height="3"/><rect x="664" y="168" width="3" height="3"/>
+    <rect x="770" y="200" width="3" height="3"/><rect x="928" y="140" width="3" height="3"/>
+    <rect x="1066" y="186" width="3" height="3"/><rect x="1130" y="220" width="3" height="3"/>
+  </g>
+
+  <!-- crew: S2 Kingsley, S1 David, S2 D, S1 Lucy, S2 Roman, S1 Rebecca, S2 Talia -->
+    <g fill="#07010f" transform="translate(560 292) scale(1.08)"><path d="M-20 0L-15 -92H0L-7 0ZM20 0L15 -92H0L7 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-26.400000000000002 -150H26.400000000000002L20.400000000000002 -88H-20.400000000000002Z"/><path d="M-26.400000000000002 -150H26.400000000000002L32.400000000000006 -30H-32.400000000000006Z"/><path d="M-26.400000000000002 -150L-33.400000000000006 -92L-26.400000000000002 -90L-21.400000000000002 -138ZM26.400000000000002 -150L33.400000000000006 -92L26.400000000000002 -90L21.400000000000002 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><path fill="#9a94ad" d="M-13 -182Q-14 -196 0 -195Q14 -196 13 -182L11 -186H-11Z"/></g>
+  <g fill="#07010f" transform="translate(652 292) scale(1.0)"><path d="M-26 0L-15 -92H0L-13 0ZM26 0L15 -92H0L13 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-24.0 -150H24.0L18.0 -88H-18.0Z"/><path d="M-24.0 -150L-31.0 -92L-24.0 -90L-19.0 -138ZM24.0 -150L31.0 -92L24.0 -90L19.0 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><path fill="#fcee0a" d="M-24 -150H24L20 -100H-20Z"/><path fill="#fcee0a" d="M-24 -150L-31 -96L-24 -94L-19 -138ZM24 -150L31 -96L24 -94L19 -138Z"/><path d="M-13 -186L-8 -204L-3 -190L3 -208L7 -190L14 -200L13 -182Z"/></g>
+  <g fill="#07010f" transform="translate(744 292) scale(1.0)"><path d="M-20 0L-15 -92H0L-7 0ZM20 0L15 -92H0L7 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-22.799999999999997 -150H22.799999999999997L16.799999999999997 -88H-16.799999999999997Z"/><path d="M-22.799999999999997 -150L-29.799999999999997 -92L-22.799999999999997 -90L-17.799999999999997 -138ZM22.799999999999997 -150L29.799999999999997 -92L22.799999999999997 -90L17.799999999999997 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><path d="M-18 -170Q-20 -200 0 -199Q20 -200 18 -170L14 -150H-14Z"/><path fill="none" stroke="#00f0ff" stroke-width="2" d="M6 -160Q30 -140 22 -100M-6 -160Q-30 -130 -26 -96"/><rect x="-8" y="-182" width="16" height="3" fill="#00f0ff"/></g>
+  <g fill="#07010f" transform="translate(836 292) scale(0.95)"><path d="M-20 0L-15 -92H0L-7 0ZM20 0L15 -92H0L7 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-20.4 -150H20.4L14.399999999999999 -88H-14.399999999999999Z"/><path d="M-20.4 -150L-27.4 -92L-20.4 -90L-15.399999999999999 -138ZM20.4 -150L27.4 -92L20.4 -90L15.399999999999999 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><path fill="#00f0ff" d="M-15 -180Q-16 -198 0 -197Q16 -198 15 -180L16 -160L10 -164L9 -180H-9L-10 -164L-16 -160Z"/></g>
+  <g fill="#07010f" transform="translate(928 292) scale(0.92)"><path d="M-20 0L-15 -92H0L-7 0ZM20 0L15 -92H0L7 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-20.4 -150H20.4L14.399999999999999 -88H-14.399999999999999Z"/><path d="M-20.4 -150L-27.4 -92L-20.4 -90L-15.399999999999999 -138ZM20.4 -150L27.4 -92L20.4 -90L15.399999999999999 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><rect x="-4" y="-196" width="30" height="20" rx="3"/><circle cx="30" cy="-186" r="7" fill="none" stroke="#fcee0a" stroke-width="2.5"/><path d="M-13 -184Q-14 -198 0 -197Q12 -197 13 -186L16 -150H8L6 -176H-10L-14 -150H-20Z"/></g>
+  <g fill="#07010f" transform="translate(1020 292) scale(0.78)"><path d="M-30 0L-15 -92H0L-17 0ZM30 0L15 -92H0L17 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-19.200000000000003 -150H19.200000000000003L13.200000000000003 -88H-13.200000000000003Z"/><path d="M-19.200000000000003 -150L-26.200000000000003 -92L-19.200000000000003 -90L-14.200000000000003 -138ZM19.200000000000003 -150L26.200000000000003 -92L19.200000000000003 -90L14.200000000000003 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><path fill="#ff2a6d" d="M-12 -186Q-34 -196 -30 -166Q-24 -180 -12 -178ZM12 -186Q34 -196 30 -166Q24 -180 12 -178Z"/><rect x="-6" y="-148" width="70" height="14" rx="3"/><rect x="40" y="-152" width="10" height="22" fill="#ff2a6d"/></g>
+  <g fill="#07010f" transform="translate(1112 292) scale(0.96)"><path d="M-24 0L-15 -92H0L-11 0ZM24 0L15 -92H0L11 0Z"/><path d="M-16 -100H16L15 -84H-15Z"/><path d="M-21.6 -150H21.6L15.600000000000001 -88H-15.600000000000001Z"/><path d="M-21.6 -150L-28.6 -92L-21.6 -90L-16.6 -138ZM21.6 -150L28.6 -92L21.6 -90L16.6 -138Z"/><rect x="-5" y="-164" width="10" height="16"/><ellipse cx="0" cy="-178" rx="13" ry="15"/><path d="M-14 -186L0 -200L14 -186L18 -150H12L10 -178H-10L-12 -150H-18Z"/><g fill="#ff3b3b"><circle cx="-6" cy="-180" r="2.5"/><circle cx="0" cy="-184" r="2.5"/><circle cx="6" cy="-180" r="2.5"/></g><path fill="none" stroke="#ff3b3b" stroke-width="1.5" opacity="0.7" d="M-22 -140L-26 -100M22 -140L26 -100"/></g>
+
+  <!-- name -->
+  <rect x="64" y="96" width="56" height="6" fill="#fcee0a"/>
+  <text x="64" y="160" class="sans" font-size="60" font-weight="800" fill="#ffffff" letter-spacing="1">Sri Harshith</text>
+  <text x="66" y="200" class="sans" font-size="22" font-weight="500" fill="#00f0ff">AI Engineer</text>
+  <text x="66" y="232" class="sans" font-size="16" fill="#c9c3dd">Building agents and tools that do real work.</text>
+
+  <rect y="292" width="1200" height="8" fill="#07010f"/>
+  <rect y="296" width="1200" height="4" fill="#ff2a6d"/>
+</svg>
