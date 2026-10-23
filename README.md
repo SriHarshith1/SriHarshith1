@@ -15,15 +15,11 @@ Away from the keyboard: anime, League of Legends, Apex, F1 and pop music.
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-0d0221?style=for-the-badge&logo=python&logoColor=fcee0a"/>
-  <img src="https://img.shields.io/badge/TypeScript-0d0221?style=for-the-badge&logo=typescript&logoColor=00f0ff"/>
   <img src="https://img.shields.io/badge/Swift-0d0221?style=for-the-badge&logo=swift&logoColor=ff2a6d"/>
-  <img src="https://img.shields.io/badge/C%23-0d0221?style=for-the-badge&logo=dotnet&logoColor=fcee0a"/>
   <img src="https://img.shields.io/badge/FastAPI-0d0221?style=for-the-badge&logo=fastapi&logoColor=00f0ff"/>
   <img src="https://img.shields.io/badge/React-0d0221?style=for-the-badge&logo=react&logoColor=00f0ff"/>
   <img src="https://img.shields.io/badge/LangChain-0d0221?style=for-the-badge&logo=langchain&logoColor=fcee0a"/>
   <img src="https://img.shields.io/badge/LangGraph-0d0221?style=for-the-badge&logo=langgraph&logoColor=ff2a6d"/>
-  <img src="https://img.shields.io/badge/Claude-0d0221?style=for-the-badge&logo=anthropic&logoColor=fcee0a"/>
-  <img src="https://img.shields.io/badge/Playwright-0d0221?style=for-the-badge&logo=playwright&logoColor=00f0ff"/>
   <img src="https://img.shields.io/badge/SQLite-0d0221?style=for-the-badge&logo=sqlite&logoColor=00f0ff"/>
   <img src="https://img.shields.io/badge/MuJoCo-0d0221?style=for-the-badge&logoColor=ff2a6d"/>
   <img src="https://img.shields.io/badge/Docker-0d0221?style=for-the-badge&logo=docker&logoColor=00f0ff"/>
