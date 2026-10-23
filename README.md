@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/SriHarshith1">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=900&color=FCEE0A&center=true&vCenter=true&width=720&lines=%3E+jacking+in...+connection+established;%3E+ex-QA+netrunner+%E2%86%92+AI+engineer;%3E+I+break+things+so+prod+doesn't;%3E+building+agents+that+act+on+their+own;%3E+wanna+go+to+the+moon%3F" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=900&color=FCEE0A&center=true&vCenter=true&width=720&lines=%3E+jacking+in...+connection+established;%3E+AI+engineer+%2F%2F+netrunner;%3E+wiring+LLMs+into+real+machines;%3E+building+agents+that+act+on+their+own;%3E+wanna+go+to+the+moon%3F" alt="typing"/>
   </a>
 </p>
 
@@ -20,15 +20,15 @@
 
 ```yaml
 handle:     SriHarshith1
-class:      Netrunner (QA → Applied AI)
+class:      Netrunner // AI Engineer
 affiliation: freelance edgerunner
 chrome:
   - LLM eval framework @ Optum  # FastAPI · DeepEval · LangChain · LangGraph · React
   - agents that drive phones, Macs and browsers
-  - test automation that never sleeps
+  - autonomous loops that run all night
 current_gig: shipping agentic side projects, one quickhack at a time
 off_the_net: [anime, League of Legends, Apex, F1, pop music]
-motto:      "In Night City, you can be anyone. I chose the one who reads the logs."
+motto:      "In Night City, you can be anyone. I chose the one who builds the AI."
 ```
 
 <img src="assets/divider.svg" width="100%"/>
@@ -46,9 +46,6 @@ motto:      "In Night City, you can be anyone. I chose the one who reads the log
   <img src="https://img.shields.io/badge/LangGraph-0d0221?style=for-the-badge&logo=langgraph&logoColor=ff2a6d"/>
   <img src="https://img.shields.io/badge/Claude-0d0221?style=for-the-badge&logo=anthropic&logoColor=fcee0a"/>
   <img src="https://img.shields.io/badge/Playwright-0d0221?style=for-the-badge&logo=playwright&logoColor=00f0ff"/>
-  <img src="https://img.shields.io/badge/Pytest-0d0221?style=for-the-badge&logo=pytest&logoColor=fcee0a"/>
-  <img src="https://img.shields.io/badge/Pandas-0d0221?style=for-the-badge&logo=pandas&logoColor=fcee0a"/>
-  <img src="https://img.shields.io/badge/Jupyter-0d0221?style=for-the-badge&logo=jupyter&logoColor=ff2a6d"/>
   <img src="https://img.shields.io/badge/SQLite-0d0221?style=for-the-badge&logo=sqlite&logoColor=00f0ff"/>
   <img src="https://img.shields.io/badge/MuJoCo-0d0221?style=for-the-badge&logoColor=ff2a6d"/>
   <img src="https://img.shields.io/badge/Docker-0d0221?style=for-the-badge&logo=docker&logoColor=00f0ff"/>
@@ -69,22 +66,10 @@ motto:      "In Night City, you can be anyone. I chose the one who reads the log
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `> ls ~/data-shards --public`
-
-<p align="center">
-  <a href="https://github.com/SriHarshith1/Multimodal-RAG"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SriHarshith1&repo=Multimodal-RAG&hide_border=true&bg_color=0d0221&title_color=fcee0a&icon_color=ff2a6d&text_color=00f0ff" alt="Multimodal-RAG"/></a>
-  <a href="https://github.com/SriHarshith1/yelp-business-analysis"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SriHarshith1&repo=yelp-business-analysis&hide_border=true&bg_color=0d0221&title_color=fcee0a&icon_color=ff2a6d&text_color=00f0ff" alt="yelp-business-analysis"/></a>
-  <a href="https://github.com/SriHarshith1/Spotify-Top-50-Analysis"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SriHarshith1&repo=Spotify-Top-50-Analysis&hide_border=true&bg_color=0d0221&title_color=fcee0a&icon_color=ff2a6d&text_color=00f0ff" alt="Spotify-Top-50-Analysis"/></a>
-  <a href="https://github.com/SriHarshith1/FastAPI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SriHarshith1&repo=FastAPI&hide_border=true&bg_color=0d0221&title_color=fcee0a&icon_color=ff2a6d&text_color=00f0ff" alt="FastAPI"/></a>
-</p>
-
-<img src="assets/divider.svg" width="100%"/>
-
 ## `> netwatch --scan SriHarshith1`
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=SriHarshith1&show_icons=true&hide_border=true&bg_color=0d0221&title_color=fcee0a&icon_color=ff2a6d&text_color=00f0ff&ring_color=fcee0a&custom_title=NETRUNNER%20STATS" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SriHarshith1&layout=compact&hide_border=true&bg_color=0d0221&title_color=fcee0a&text_color=00f0ff&custom_title=INSTALLED%20CHROME" alt="langs"/>
 </p>
 
 <p align="center">
@@ -107,4 +92,4 @@ motto:      "In Night City, you can be anyone. I chose the one who reads the log
   <a href="https://linkedin.com/in/harshith-gumparthi"><img src="https://img.shields.io/badge/CORPO%20NET-LinkedIn-00f0ff?style=for-the-badge&logo=linkedin&logoColor=fcee0a&labelColor=0d0221"/></a>
 </p>
 
-<p align="center"><sub><code>// "I'm gonna be a legend." — and the legend runs on unit tests.</code></sub></p>
+<p align="center"><sub><code>// "I'm gonna be a legend." — and this one runs on agents.</code></sub></p>
