@@ -92,10 +92,6 @@ motto:      "In Night City, you can be anyone. I chose the one who reads the log
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SriHarshith1&bg_color=0d0221&color=00f0ff&line=fcee0a&point=ff2a6d&area=true&area_color=ff2a6d&hide_border=true&custom_title=SIGNAL%20TRACE" alt="activity"/>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SriHarshith1/SriHarshith1/output/snake-dark.svg"/>
     <img alt="contribution snake" src="https://raw.githubusercontent.com/SriHarshith1/SriHarshith1/output/snake.svg"/>
