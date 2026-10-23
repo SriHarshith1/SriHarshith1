@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0221"/><stop offset="1" stop-color="#1c0736"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity="0"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0.35"/></linearGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <g stroke="url(#fade)" stroke-width="1">
+    <path d="M0 200H1200M0 214H1200M0 232H1200M0 256H1200"/>
+    <path d="M600 190L600 260M600 190L420 260M600 190L240 260M600 190L60 260M600 190L-120 260M600 190L780 260M600 190L960 260M600 190L1140 260M600 190L1320 260"/>
+  </g>
+  <rect x="0" y="189" width="1200" height="1.5" fill="#ff2a6d" opacity="0.8"/>
+  <text x="600" y="108" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="800" fill="#fff">Sri Harshith</text>
+  <text x="600" y="148" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#fcee0a" letter-spacing="3">AI ENGINEER</text>
+</svg>

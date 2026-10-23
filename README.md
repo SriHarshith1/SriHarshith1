@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-v4.svg" alt="Sri Harshith — AI Engineer" width="100%"/>
+  <img src="assets/banner-v5.svg" alt="Sri Harshith — AI Engineer" width="100%"/>
 </p>
 
 <img src="assets/divider.svg" width="100%"/>
