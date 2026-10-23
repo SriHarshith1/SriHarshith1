@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0221"/>
+      <stop offset="1" stop-color="#1f0838"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcee0a"/>
+      <stop offset="1" stop-color="#ff2a6d"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .lights { animation: lights 4s ease-in-out infinite; }
+    @keyframes lights { 50% { opacity: 0.35 } }
+  </style>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- sun + skyline -->
+  <circle cx="1000" cy="240" r="110" fill="url(#sun)" opacity="0.85"/>
+  <g fill="#0d0221">
+    <rect x="880" y="196" width="240" height="5"/><rect x="880" y="214" width="240" height="7"/>
+    <rect x="880" y="234" width="240" height="9"/>
+  </g>
+  <path fill="#07010f" d="M820 300V240h30v-40h22v-30h18v70h26v-90h34v110h20v-60h28v-30h16v90h30v-120h40v140h22v-70h30v40h24v-60h20v80h20V300z"/>
+  <g fill="#fcee0a" class="lights">
+    <rect x="930" y="190" width="4" height="4"/><rect x="1036" y="160" width="4" height="4"/>
+    <rect x="1048" y="182" width="4" height="4"/><rect x="1120" y="226" width="4" height="4"/>
+  </g>
+
+  <!-- accent bar -->
+  <rect x="64" y="96" width="56" height="6" fill="#fcee0a"/>
+
+  <text x="64" y="160" class="sans" font-size="60" font-weight="800" fill="#ffffff" letter-spacing="1">Sri Harshith</text>
+  <text x="66" y="200" class="sans" font-size="22" font-weight="500" fill="#00f0ff">AI Engineer</text>
+  <text x="66" y="232" class="sans" font-size="16" fill="#c9c3dd">Building agents and tools that do real work.</text>
+
+  <rect y="296" width="1200" height="4" fill="#ff2a6d"/>
+</svg>
