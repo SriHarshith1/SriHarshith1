@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Sri Harshith — AI Engineer" width="100%"/>
+  <img src="assets/banner-v2.svg" alt="Sri Harshith — AI Engineer" width="100%"/>
 </p>
 
 <img src="assets/divider.svg" width="100%"/>
@@ -29,7 +29,6 @@ Away from the keyboard: anime, League of Legends, Apex, F1 and pop music.
 
 | Project | What it does |
 |:--|:--|
-| **Instinct** | Personal agent you text over iMessage. It acts on your Mac, phone and the web, and asks before risky actions. |
 | **Computah Mobile** | iPhone agent that operates real apps through an XCUITest runner. |
 | **Brickify** | Turns a photo or a text prompt into a LEGO build, with a physics strength check and a build manual. |
 | **F1 Aero** | Overnight search loop for F1 front-wing designs. |
