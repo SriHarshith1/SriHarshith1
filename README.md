@@ -19,7 +19,6 @@ Away from the keyboard: anime, League of Legends, Apex, F1 and pop music.
   <img src="https://img.shields.io/badge/LangChain-0d0221?style=for-the-badge&logo=langchain&logoColor=fcee0a"/>
   <img src="https://img.shields.io/badge/LangGraph-0d0221?style=for-the-badge&logo=langgraph&logoColor=ff2a6d"/>
   <img src="https://img.shields.io/badge/SQLite-0d0221?style=for-the-badge&logo=sqlite&logoColor=00f0ff"/>
-  <img src="https://img.shields.io/badge/MuJoCo-0d0221?style=for-the-badge&logoColor=ff2a6d"/>
   <img src="https://img.shields.io/badge/Docker-0d0221?style=for-the-badge&logo=docker&logoColor=00f0ff"/>
 </p>
 
