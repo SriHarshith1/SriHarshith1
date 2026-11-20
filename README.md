@@ -6,8 +6,7 @@
 
 ### About
 
-I build AI agents and the tools around them: agents that drive phones, Macs and browsers, and loops that run on their own overnight.
-Before this, I built an LLM evaluation framework at Optum with FastAPI, DeepEval, LangChain, LangGraph and React.
+I build and evaluate AI agents. At Optum, I built our evaluation framework from scratch, covering RAG and agent workflows plus red-teaming, with DeepEval (G-Eval as the LLM judge), LangGraph, FastAPI and a React dashboard.
 
 Away from the keyboard: anime, League of Legends, Apex, F1 and pop music.
 
